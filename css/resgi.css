@@ -39,3 +39,16 @@ a.botao:hover {
     color: #fff;
     cursor: url(../img/cursor_hand_click_line_icon_235662.png) , auto;;
 }
+
+
+.buton {
+    text-decoration: none;
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    top: 80%;
+    font-weight: 600;
+    color: black;
+    
+}
