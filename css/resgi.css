@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+ 
+body {   /* aq vou por algum backgroud */
+    display: flex;
+    justify-content: center;
+    background: url(../img/arara.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: url(../img/cursor2.png) , auto;
+}
+
+.titulo {
+    color: aliceblue;
+    position: absolute;
+    top: 4%;
+}
+
+
+
+.botao {
+    text-decoration: none;
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    top: 50%;
+    font-weight: 600;
+    color: black;
+    
+} 
+
+a.botao:hover {
+    background-color: rgb(11, 11, 8);
+    color: #fff;
+    cursor: url(../img/cursor_hand_click_line_icon_235662.png) , auto;;
+}

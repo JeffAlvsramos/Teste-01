@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    background-image: url(../img/arara.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+.titulo {
+    color: azure;
+    position: absolute;
+    top: 10%;
+
+}
+
+.voltar {
+    text-decoration: none;
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    top: 50%;
+    font-weight: 600;
+    color: black;
+} 
+
+.voltar:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.escondido{
+    text-decoration: none;
+}
+
+.voltar{ animation: rotate 3s infinite; }
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+    
+}
